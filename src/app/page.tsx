@@ -1,4 +1,5 @@
 import { BackgroundGradientDemo } from '@/app/BackgroundGradientDemo';
+import { MacbookScrollDemo } from '@/app/MacbookScroll';
 import { ThreeDCardDemo } from '@/app/ThreeDCard';
 import { HeroParallax } from '@/components/ui/hero-parallax';
 import { products } from '@/utils/products';
@@ -14,6 +15,7 @@ export default function Home() {
           <ThreeDCardDemo buttonText2="SayHello" />
         </div>
       </div>
+      <MacbookScrollDemo />
     </main>
   );
 }
